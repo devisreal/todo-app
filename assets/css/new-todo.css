@@ -1,0 +1,64 @@
+/* {
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Poppins', sans-serif;
+} */
+
+:root{
+    --blue-shade: #57BCD3;
+    --text-color-black: #2D3644;
+}
+
+.navbar{
+    background-color: var(--blue-shade);
+    margin-bottom: 1rem;
+}
+
+.navbar-brand{    
+    font-family: 'Poppins', sans-serif;
+    color: white !important;
+}
+.home-button{    
+    width: fit-content;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.form-container{
+    margin-top: 1rem;
+    background-color: #f2f2f2;
+    width: 55%;
+    height: 27rem;
+    border-radius: 7px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+form{
+    display:  grid;    
+}
+
+form input, textarea{
+    width: 75%;
+    margin: 0 auto;
+    border: none;
+    background-color: white;
+    padding: 10px 15px;    
+    border-radius: 5px;
+    color: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    outline: 2px var(--blue-shade) solid;
+    font-size: 15px;    
+}
+
+form .submit-btn{
+    width: fit-content;
+    border: none;
+    background-color: var(--blue-shade);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 7px;
+    
+}
+
+

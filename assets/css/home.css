@@ -1,0 +1,83 @@
+/* {
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Poppins', sans-serif;
+} */
+
+#myBtn {
+  position: fixed;
+  top: 100px;
+  right: 60px;
+  z-index: 99;
+  font-size: 12px;
+  background-color: var(--blue-shade);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  padding: 0.7rem;
+}
+
+:root {
+  --blue-shade: #57bcd3;
+  --text-color-black: #2d3644;
+}
+
+.navbar {
+  background-color: var(--blue-shade);
+  margin-bottom: 2rem;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  color: white !important;
+}
+
+.todo-group {
+  border: 2px solid lightgray;
+  height: 28rem;
+  border-radius: 7px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* width */
+.todo-group::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+.todo-group::-webkit-scrollbar-thumb {
+  background: var(--blue-shade);
+}
+
+/* Handle on hover */
+.todo-group::-webkit-scrollbar-thumb:hover {
+  background: #62929c;
+}
+
+.todo-item {
+  margin: 0.6rem 0;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.card-title a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  transition: 0.3s;
+  color: var(--text-color-black);
+}
+
+.card-title a:hover {
+  color: #336d7b;
+  transition: 0.3s;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.card-subtitle {
+  font-family: "Dongle", sans-serif;
+  font-size: 22px;
+}
